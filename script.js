@@ -16,7 +16,6 @@ let direction = 'LEFT';
 let foodCollected = false;
 let score = 1;
 
-var gameOver = new Image('gameOver.png')
 
 const coinSound = new Audio("coinSound.mp3");
 const gameOverSound = new Audio("gameOverSound.wav");
