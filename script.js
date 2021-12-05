@@ -63,9 +63,6 @@ function draw(){
     requestAnimationFrame(draw); //Animation Frame
 }
 
-function isGameOver(){
-    let gameOver = false;
-}
 
 function drawScore() {
     ctx.fillStyle = 'white';
@@ -95,7 +92,8 @@ function testGameOver(){
         direction = 'LEFT';
         score = 1;   
         gameOverSound.play();
-        window.alert('Game Over!');
+        alert('Game Over!'); 
+        
     }
 }
 
